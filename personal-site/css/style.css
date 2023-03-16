@@ -1,6 +1,7 @@
 body {
 	background-color: #F2CC96;
 	text-color: #814906;
+	font-family: Garamond, serif;
 }
 
 hr {
@@ -34,4 +35,8 @@ a:hover{
 	color: #814906;
 	background-color: #D35823;
 	text-decoration-line: overline;
+}
+
+img {
+	filter: sepia(80%);
 }
