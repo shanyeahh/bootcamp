@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Shenae's Personal Site</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+	
+	<body>
+		<table cellspacing="20px">
+			<td>
+			<img src="img/face.jpg" alt="selfie taken while migrating circa 2021">
+			</td>
+			<td><h1>Shenae S.</h1>
+			<p><a href="contact.html" target="_blank">Contact Me</a></p>
+			<p><em>Aspiring web developer, writer and multi-passionate creative.</em></p>
+			<p>Hello! First and foremost, I believe you have to <em>own</em> the title before you truly embody it. Imposter syndrome strikes in so many ways and this is one of my methods for fighting it. So I <strong>am</strong> a writer who is penning several works of both fiction and nonfiction. I love a hot cup of peppermint tea and a good yoga session in the morning.</p>
+			</td>
+		</table>
+		
+		<hr>
+		<h3>What I am multi-passionate about ...</h3>
+			<ol>
+				<li>Reading</li>
+					<ul>Read along with me at <a href="https://app.thestorygraph.com/profile/shanyeahh" target="_blank">The Storygraph</a>!</ul>
+				<li>Writing</li>
+					<ul>Follow my progress at <a href="https://nanowrimo.org/participants/sage-mcknight" target="_blank">NaNoWriMo</a>!</ul>
+					<ul>Check out the handful of poems I've jotted down at <a href="https://allpoetry.com/sagemck" target="_blank">AllPoetry</a>!</ul>
+				<li>Coding (almost, we're getting there)</li>
+				<li>Yoga</li>
+			</ol>
+
+		<h3>Literary Works (in Progress)</h3>
+			<ul>
+				<li><i>Is It Soup Yet?</i> - a novel highlighting Black romance and overcoming the inability to be vulnerable with those who want to support us the most, with a backsplash of the local restaurant scene.</li>
+				<li><i>Spilled Potions</i> - a short novella centered around a weekend whirlwind romance between a mage and a bard at a gaming convention.</li>
+				<li><i>The Vanity of Orelia Hawk</i> - a short story about the ultimate fate of a sea-faring woman and her crew.</li>
+			</ul>
+
+		<h3>Relevant Education & Work Experience</h3>
+		<p>Prior to engaging the skills and work I enjoy, I grew in the customer service industry predominately. From retail to restaurant to call center/office culture, my time in customer service spans over a decade. I wouldn't trade that time for anything because I learned highly important soft skills but also know that said soft skills can be applied to many different industries when honed and combined with technical skills. I have taken several online courses to hone my toolbox of skills, including on Udemy, Skillshare, and more. Click <a href="edu.html" target="_blank">here</a> for more details!
+
+
+		<hr>
+	</body>
+</html>
