@@ -1,11 +1,37 @@
 body {
-	background-color: #E8F6EF;
+	background-color: #F2CC96;
+	text-color: #814906;
 }
 
 hr {
-	border-color: #4C4C6D;
+	border-color: #D35823;
 	border-style: none;
 	border-width: 10px;
 	border-top-style: dotted;
 	width: 30%;
+}
+
+h1 {
+	color: #D35823;
+	text-decoration-style: solid;
+	text-decoration-line: overline;
+
+}
+
+h3 {
+	color: #D35823;
+	text-decoration-style: solid;
+	text-decoration-line: overline;
+
+}
+
+a{
+	color: #F7EBC9;
+	font-style: italic;
+}
+
+a:hover{
+	color: #814906;
+	background-color: #D35823;
+	text-decoration-line: overline;
 }
