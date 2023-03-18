@@ -1,29 +1,27 @@
 body {
 	background-color: #F2CC96;
-	text-color: #814906;
 	font-family: Garamond, serif;
+	text-color: #814906;
 }
 
 hr {
 	border-color: #D35823;
 	border-style: none;
-	border-width: 10px;
 	border-top-style: dotted;
+	border-width: 10px;
 	width: 30%;
 }
 
 h1 {
 	color: #D35823;
-	text-decoration-style: solid;
 	text-decoration-line: overline;
-
+	text-decoration-style: solid;
 }
 
 h3 {
 	color: #D35823;
-	text-decoration-style: solid;
 	text-decoration-line: overline;
-
+	text-decoration-style: solid;
 }
 
 a{
@@ -32,8 +30,8 @@ a{
 }
 
 a:hover{
-	color: #814906;
 	background-color: #D35823;
+	color: #814906;
 	text-decoration-line: overline;
 }
 
