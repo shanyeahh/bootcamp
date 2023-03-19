@@ -1,0 +1,35 @@
+*/ --- starting css  --- */
+
+body {
+	background-color: #FEFBE9;
+	color: #473C33;
+	margin: 0;
+}
+
+div {
+	padding: 20px;
+	text-align: center;
+}
+
+.topcontainer {
+	background-color: #FDA769;
+}
+
+.middlecontainer {
+	background-color: #FEC868;
+}
+
+.bottomcontainer {
+	background-color: #ABC270;
+}
+
+h1 {
+	color: #473C33;
+	text-decoration-style: ;
+
+}
+
+hr {
+	width: 20%;
+	color: #473C33;
+}
