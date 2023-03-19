@@ -3,24 +3,29 @@
 body {
 	background-color: #FEFBE9;
 	color: #473C33;
-	margin: 0;
+	margin-top: 0;
 }
 
 div {
-	padding: 20px;
+	height: 200px;
+	padding-bottom: 20px;
 	text-align: center;
+	width: 200px;
 }
 
 .topcontainer {
 	background-color: #FDA769;
+	margin: 0px 0px 0px 0px;
 }
 
 .middlecontainer {
 	background-color: #FEC868;
+	margin: 0px 0px 0px 0px;
 }
 
 .bottomcontainer {
 	background-color: #ABC270;
+	margin: 0px 0px 0px 0px;
 }
 
 h1 {
@@ -30,6 +35,9 @@ h1 {
 }
 
 hr {
-	width: 20%;
 	color: #473C33;
+	width: 20%;
+	height: 0;
+	border-style: dotted;
+
 }
