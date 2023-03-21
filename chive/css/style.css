@@ -8,28 +8,25 @@ html {
 }
 
 body {
-	background: #4E6C50 url(/img/sidebar.png);
-	background-position: left;
-	background-size: ;
+	background: #4E6C50 url(sidebar.png);
+	background-position: right;
+	background-size: 32%;
 	background-repeat: no-repeat;
 	display: table-cell;
     vertical-align: middle;
+    filter: sepia(30%);
 
-}
 
-img {
-	filter: sepia(30%);
-	height: 200px;
-	width: 200px;
 }
 
 h1, h2, h3 {
 	color: #BFDB38;
 	text-align: center;
+    font-family: 'Courier New', monospace;
 }
 
 div {
-	background-color: #AA8B56;
+	background-color: #F0EBCE;
 	width: 40%;
 	border-radius: 25px;
   	background: ;
