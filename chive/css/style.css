@@ -1,12 +1,32 @@
 body {
-	background-color: ;
-	color: #395144;
+	background: url(/img/veggies.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-h1 {
+h1, h2, h3 {
 	color: #4E6C50;
+	text-align: center;
 }
 
 div {
 	background-color: #AA8B56;
+	width: 60%;
+}
+
+.brunch {
+	background-color: #AA8B56;
+}
+
+.dinner {
+	background-color: #F0EBCE;
+}
+
+.specials {
+	background-color: #AA8B56;
+}
+
+.weekend {
+	background-color: #F0EBCE;
 }
