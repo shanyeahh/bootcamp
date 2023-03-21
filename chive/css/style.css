@@ -1,18 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
-	background: url(/img/veggies.jpeg);
-	background-position: center;
-	background-size: cover;
+	background: #4E6C50 url(/img/sidebar.png);
+	background-position: left;
+	background-size: ;
 	background-repeat: no-repeat;
+	display: table-cell;
+    vertical-align: middle;
+
+}
+
+img {
+	filter: sepia(30%);
+	height: 200px;
+	width: 200px;
 }
 
 h1, h2, h3 {
-	color: #4E6C50;
+	color: #BFDB38;
 	text-align: center;
 }
 
 div {
 	background-color: #AA8B56;
-	width: 60%;
+	width: 40%;
+	border-radius: 25px;
+  	background: ;
+  	padding: 10px;
+}
+
+.header_images {
+	align-content: center;
+    margin: 4px, 4px;
+    padding: 4px;
+    background-color: ;
+    width: 39%;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .brunch {
@@ -23,10 +54,14 @@ div {
 	background-color: #F0EBCE;
 }
 
-.specials {
+.dessert {
 	background-color: #AA8B56;
 }
 
-.weekend {
+.specials {
 	background-color: #F0EBCE;
+}
+
+.weekend {
+	background-color: #AA8B56;
 }
