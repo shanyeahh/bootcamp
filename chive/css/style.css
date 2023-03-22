@@ -14,7 +14,6 @@ body {
 	background-repeat: no-repeat;
 	display: table-cell;
     vertical-align: middle;
-    filter: sepia(30%);
 
 
 }
@@ -31,16 +30,6 @@ div {
 	border-radius: 25px;
   	background: ;
   	padding: 10px;
-}
-
-.header_images {
-	align-content: center;
-    margin: 4px, 4px;
-    padding: 4px;
-    background-color: ;
-    width: 39%;
-    overflow: auto;
-    white-space: nowrap;
 }
 
 .brunch {
