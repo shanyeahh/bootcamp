@@ -1,43 +1,88 @@
 */ --- starting css  --- */
 
 body {
-	background-color: #FEFBE9;
-	color: #473C33;
-	margin: 0;
-}
+	font-family: Garamond, Georgia, serif;
+	line-height: 30px;
+	background-image: linear-gradient(to right, #DFA67B, #FBF8F1);
+	margin-top: 0px;
+  	margin-bottom: 0px;
+  	margin-right: 0px;
+    margin-left: 80px;
+    padding: 100px
+	}
+
+img {
+		position: fixed; bottom: 0px; right: 0px;
+	}
 
 div {
-	height: 200px;
-	padding-bottom: 20px;
+	border-radius: 25px;
+	height: ;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 	text-align: center;
-	width: 200px;
+	width: 40%;
+}
+
+.header {
+	background-color: #E9DAC1;
+	margin: 0px 0px 0px 0px;
+
+}
+
+a:link {
+	color: #965D62;
+	text-transform: uppercase;
+
+}
+
+a:hover {
+	color: #F2D974;
+	text-transform: lowercase;
+}
+
+a:visited {
+	color: #534E52;
+	background-color: #F2D974;
+	text-transform: uppercase;
 }
 
 .topcontainer {
-	background-color: #FDA769;
+	background-color: #F7ECDE;
 	margin: 0px 0px 0px 0px;
 }
 
 .middlecontainer {
-	background-color: #FEC868;
+	background-color: #F7ECDE;
 	margin: 0px 0px 0px 0px;
 }
 
 .bottomcontainer {
-	background-color: #ABC270;
+	background-color: #F7ECDE;
 	margin: 0px 0px 0px 0px;
 }
 
 h1 {
-	color: #473C33;
+	color: #534E52;
 	text-decoration-style: ;
 
 }
 
-hr {
-	color: #473C33;
-	width: 20%;
-	height: 0;
-	border-style: dotted;
-
+hr.arrow {
+background-image: url("/hr.png");
+background-color: none;
+background-repeat: no-repeat;
+background-position: center;
+border: 0px;
 }
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: ;
+}
+
