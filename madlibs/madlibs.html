@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <!---Google Import Fonts---->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+
+        <title>We're All Mad (Libs) Here!</title>
+
+        <link rel="stylesheet" href="madlibs.css">
+    </head>
+    <body>
+    	
+    	<div class="container">
+    	<header>
+    		<h1>We're all mad <span>libs</span> here!</h1>
+    		<h3>What will <em>your</em> prophecy be?</h3>
+    		<p>Mad Libs are stories with words removed and replaced by blank spaces. Fill in the blanks and see what you discover!</p>
+    	</header>
+
+    	<main>
+    		<form id="madlibs-form" name="madlibs-form" onsubmit="submitMadLibs(event)">
+    			<section id="madlibs-inputs">
+    				<div class="input-group">
+    					<label for="person/animal/creature1">person/animal/creature</label>
+    					<input type="text" id="person/animal/creature1" name="person/animal/creature1" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="yourName">your name</label>
+    					<input type="text" id="yourName" name="yourName" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="building">building</label>
+    					<input type="text" id="building" name="building" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="person/animal/creature2">person/animal/creature</label>
+    					<input type="text" id="person/animal/creature2" name="person/animal/creature2" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="magical-item">magical item</label>
+    					<input type="text" id="magical-item" name="magical-item" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="yourName">your name</label>
+    					<input type="text" id="yourName" name="yourName" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="feeling/emotion">feeling/emotion</label>
+    					<input type="text" id="feeling/emotion" name="feeling/emotion" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="magical-creature1">magical creature</label>
+    					<input type="text" id="magical-creature1" name="magical-creature1" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="obstacle">obstacle</label>
+    					<input type="text" id="obstacle" name="obstacle" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="companion">travelling companion</label>
+    					<input type="text" id="companion" name="companion" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="verb">verb/action phrase</label>
+    					<input type="text" id="verb" name="verb" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="magical-creature2">another magical creature</label>
+    					<input type="text" id="magical-creature2" name="magical-creature2" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="verb2">verb/action phrase</label>
+    					<input type="text" id="verb2" name="verb2" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="magical-item">magical item</label>
+    					<input type="text" id="magical-item" name="magical-item" required>
+    				</div>
+
+    				<div class="input-group">
+    					<label for="verb3">verb/action phrase</label>
+    					<input type="text" id="verb3" name="verb3" required>
+    				</div>
+    			</section>
+
+
+
+
+
+    			<section id="madlibs-submit">
+    				<button type="submit">Generate</button>
+    			</section>
+    		</form>
+    	</main>
+
+    	</div>
+
+
+        
+      <script src="madlibs.js"></script>
+    </body>
+</html>
