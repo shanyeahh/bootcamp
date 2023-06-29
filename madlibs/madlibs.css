@@ -84,7 +84,7 @@ form section {
 .inserted-text {
 	border-bottom: 3px solid #3F1263;
 	font-weight: 700;
-	background-color: white;
+	background-color: white 0.6;
 	padding: 0 5%;
 	margin: 0 5%;
 }
@@ -93,11 +93,12 @@ form section {
 	font-weight: 700;
 }
 
-#madLibs-submit button,
-#madLibs-reset {
+#madlibs-submit button,
+#madlibs-reset {
 	height: 40px;
 	width: 250px;
 	background-color: #3F1263;
+	text-transform: uppercase;
 	border-radius: 20px;
 	border: none;
 	padding: 10px;
