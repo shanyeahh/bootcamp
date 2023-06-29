@@ -14,12 +14,16 @@ const submitMadLibs = (event) => {
 
 	const story = `
 	<header id="intro" class="center">
-	<h3>Read your prophecy ... if you dare!</h3> 
+	<h3>Read your prophecy ... if you dare!</h3> </header>
 	
 
 	<p>Once upon a time, there was a <span class="inserted-text">${userSubmission.personanimalcreature1}</span> named <span class="inserted-text">${userSubmission.yourName}</span> who lived in
-		an enormous <span class="inserted-text">${userSubmission.building}</span>. One day, a <span class="inserted-text">${userSubmission.personanimalcreature2}</span> friend came to visit, sharing
-		news about a special <span class="inserted-text">${userSubmission.magicalitem}</span>. <span class="inserted-text">${userSubmission.yourName}</span> felt very <span class="inserted-text">${userSubmission.feelingemotion}</span> to hear
+		an enormous <span class="inserted-text">${userSubmission.building}</span>.</p> 
+
+		<p>One day, a <span class="inserted-text">${userSubmission.personanimalcreature2}</span> friend came to visit, sharing
+		news about a special <span class="inserted-text">${userSubmission.magicalitem}</span>. </p>
+
+		<p><span class="inserted-text">${userSubmission.yourName}</span> felt very <span class="inserted-text">${userSubmission.feelingemotion}</span> to hear
 		about this and couldn't wait to see it in person, even though it was a
 		long, long journey. The friends packed up, and off they went.</p>
 
@@ -28,16 +32,15 @@ const submitMadLibs = (event) => {
 		thought about what they could do to help.</p>
 
 		<p>Finally, <span class="inserted-text">${userSubmission.companion}</span> had an
-		idea! "Let's <span class="inserted-text">${userSubmission.verb}</span>!
-		After a mysterious <span class="inserted-text">${userSubmission.magicalcreature2}</span> arrived to help, it was so grateful that the magical creature
+		idea! "Let's <span class="inserted-text">${userSubmission.verb}</span>!</p>
+
+		<p>After a mysterious <span class="inserted-text">${userSubmission.magicalcreature2}</span> arrived to help, it was so grateful that the magical creature
 		decided to help them, too. Soon, the friends were <span class="inserted-text">${userSubmission.verb2}</span>!</p>
 
 		<p>They made it to
 		see the <span class="inserted-text">${userSubmission.magicalitem}</span> in no time, and brought along their new magical friend!
 		When they returned home, the friends decided to <span class="inserted-text">${userSubmission.verb3}</span> in order to
 		celebrate.</p>
-
-		</header>
 `;
 
 storySection.innerHTML += story;
