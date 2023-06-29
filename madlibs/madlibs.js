@@ -32,7 +32,7 @@ const submitMadLibs = (event) => {
 		thought about what they could do to help.</p>
 
 		<p>Finally, <span class="inserted-text">${userSubmission.companion}</span> had an
-		idea! "Let's <span class="inserted-text">${userSubmission.verb}</span>!</p>
+		idea! "Let's <span class="inserted-text">${userSubmission.verb}</span>!"</p>
 
 		<p>After a mysterious <span class="inserted-text">${userSubmission.magicalcreature2}</span> arrived to help, it was so grateful that the magical creature
 		decided to help them, too. Soon, the friends were <span class="inserted-text">${userSubmission.verb2}</span>!</p>
