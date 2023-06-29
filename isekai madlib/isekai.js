@@ -14,33 +14,14 @@ const submitMadLibs = (event) => {
 
 	const story = `
 	<header id="intro" class="center">
-	<h3>Read your prophecy ... if you dare!</h3> </header>
+	<h3>Surprise! You're not dead ... anymore!</h3> </header>
 	
 
-	<p>Once upon a time, there was a <span class="inserted-text">${userSubmission.personanimalcreature1}</span> named <span class="inserted-text">${userSubmission.yourName}</span> who lived in
-		an enormous <span class="inserted-text">${userSubmission.building}</span>.</p> 
+	<p>You were an ordinary <span class="inserted-text">${userSubmission.job}</span> living in a small town and minding your business. One day, a <span class="inserted-text">${userSubmission.criminal}</span> pops out of nowhere to <span class="inserted-text">${userSubmission.verb1}</span> you! While succumbing to your injuries, a mysterious voice echoes in your mind and recites a series of commands.</p>
 
-		<p>One day, a <span class="inserted-text">${userSubmission.personanimalcreature2}</span> friend came to visit, sharing
-		news about a special <span class="inserted-text">${userSubmission.magicalitem}</span>. </p>
+<p>After regaining consciousness, you realize that you have been reincarnated as a <span class="inserted-text">${userSubmission.creature1}</span> in an unfamiliar world. You have also acquired new-found skills, including <span class="inserted-text">${userSubmission.power}</span> and <span class="inserted-text">${userSubmission.power2}</span>. You happen upon <span class="inserted-text">${userSubmission.name}</span>, a powerful <span class="inserted-text">${userSubmission.creature2}</span>, who has been sealed for the last 5000 years for <span class="inserted-text">${userSubmission.activity}</span>. Feeling sorry for them, you befriend the <span class="inserted-text">${userSubmission.creature2}</span>, promising to help destroy the seal. You two decide to exchange <span class="inserted-text">${userSubmission.items}</span>. Light pierces out of your chest and you use your newfound <span class="inserted-text">${userSubmission.power3}</span> ability to free your new magical friend. </p>
 
-		<p><span class="inserted-text">${userSubmission.yourName}</span> felt very <span class="inserted-text">${userSubmission.feelingemotion}</span> to hear
-		about this and couldn't wait to see it in person, even though it was a
-		long, long journey. The friends packed up, and off they went.</p>
-
-		<p>On the way, they found a <span class="inserted-text">${userSubmission.magicalcreature1}</span> blocking the path who was crying.
-		It was stuck in the <span class="inserted-text">${userSubmission.obstacle}</span> and couldn't get loose. So the friends
-		thought about what they could do to help.</p>
-
-		<p>Finally, <span class="inserted-text">${userSubmission.companion}</span> had an
-		idea! "Let's <span class="inserted-text">${userSubmission.verb}</span>!"</p>
-
-		<p>After a mysterious <span class="inserted-text">${userSubmission.magicalcreature2}</span> arrived to help, it was so grateful that the magical creature
-		decided to help them, too. Soon, the friends were <span class="inserted-text">${userSubmission.verb2}</span>!</p>
-
-		<p>They made it to
-		see the <span class="inserted-text">${userSubmission.magicalitem}</span> in no time, and brought along their new magical friend!
-		When they returned home, the friends decided to <span class="inserted-text">${userSubmission.verb3}</span> in order to
-		celebrate.</p>
+<p>This burst of magic attracts the attention of a nearby <span class="inserted-text">${userSubmission.creature3}</span> army who storm the area. You and the <span class="inserted-text">${userSubmission.creature2}</span> battle the army with all your might but are the end of the ropes. Just when the <span class="inserted-text">${userSubmission.creature2}</span> enemy raises their weapon to strike, the god of <span class="inserted-text">${userSubmission.noun}</span> named <span class="inserted-text">${userSubmission.name2}</span> saves you when they <span class="inserted-text">${userSubmission.verb2}</span> the enemy's forces off the face of the planet. At first you think you are saved, but then they demand you befriend them and play <span class="inserted-text">${userSubmission.game}</span> for the rest of your eternity ... oh <em>no</em>. </p>
 `;
 
 storySection.innerHTML += story;
