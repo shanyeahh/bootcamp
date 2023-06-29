@@ -6,9 +6,10 @@ html {
 body {
 	height: 100%;
 	overflow-y: hidden;
-	background-color: #0cbaba;
-	background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-	font-family: 'Comfortaa', sans-serif;
+	background-color: #118ab2;
+	background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
+	background-attachment: fixed;
+	font-family: 'Cardo', serif;
 	display: flex;
 	align-items: center;
 }
@@ -23,8 +24,8 @@ body {
 	min-height: 60vh;
 	max-height: 90vh;
 	margin: 0 auto;
-	overflow-y: auto;
 	align-items: center;
+	overflow-y: auto hidden;
 }
 
 h1, h2, h3 {
@@ -90,22 +91,18 @@ form section {
 	margin: 0;
 }
 
-.libs {
-	font-style: strong;
-}
-
 #madlibs-submit button,
 #madlibs-reset {
-	height: 40px;
-	width: 250px;
-	background-color: #3F1263;
+	height: 25px;
+	width: 150px;
+	background-color: #ffd166;
 	text-transform: uppercase;
 	border-radius: 20px;
 	border: none;
 	padding: 5px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 	font-weight: 700;
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Cardo', serif;
 
 }
 
