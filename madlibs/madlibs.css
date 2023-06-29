@@ -13,15 +13,6 @@ body {
 	align-items: center;
 }
 
-h1, h2, h3 {
-	margin: 0;
-	font-style: italic;
-}
-
-#intro{
-    padding: 0 5%;
-}
-
 .container {
 	background-color: rgb(242, 242, 242, 0.6);
 	padding: 30px 0;
@@ -33,6 +24,14 @@ h1, h2, h3 {
 	max-height: 90vh;
 	margin: 0 auto;
 	overflow-y: auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+#intro{
+    padding: 0 5%;
 }
 
 form section {
@@ -47,11 +46,12 @@ form section {
 .input-group {
 	display: flex;
 	flex-direction: column;
-	margin: 10px;
+	flex-wrap: wrap;
+	margin: 5px;
 }
 
 .input-group label {
-	padding-left: 10px;
+	padding-left: 5px;
 }
 
 .input-group input[type="text"] {
@@ -60,8 +60,8 @@ form section {
 	border: 1px solid ;
 	border-radius: 20px;
 	box-shadow: black;
-	padding-left: 10px;
-	margin: 3px 0 10px;
+	padding-left: 5px;
+	margin: 3px 0 5px;
 }
 
 .center{
@@ -84,13 +84,13 @@ form section {
 .inserted-text {
 	border-bottom: 3px solid #3F1263;
 	font-weight: 700;
-	background-color: white 0.6;
+	background-color: white 60%;
 	padding: 0 5%;
 	margin: 0 5%;
 }
 
 .libs {
-	font-weight: 700;
+	font-style: strong;
 }
 
 #madlibs-submit button,
@@ -101,7 +101,7 @@ form section {
 	text-transform: uppercase;
 	border-radius: 20px;
 	border: none;
-	padding: 10px;
+	padding: 5px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 	font-weight: 700;
 	font-family: 'Comfortaa', sans-serif;
