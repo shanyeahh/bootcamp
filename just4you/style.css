@@ -1,0 +1,32 @@
+body {
+    font-family: Garamond, Georgia, serif;
+    line-height: 30px;
+    background-image:;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 80px;
+    padding: 100px
+    }
+
+.header {
+    color: #C40018;
+
+}
+
+a:link {
+    color: #292725;
+    text-transform: uppercase;
+
+}
+
+a:hover {
+    color: #292725;
+    background-color: #FF6107;
+    text-transform: lowercase;
+}
+
+a:visited {
+    color: #C40018;
+    text-transform: uppercase;
+}
