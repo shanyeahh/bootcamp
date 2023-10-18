@@ -1,18 +1,17 @@
 body {
     font-family: Garamond, Georgia, serif;
     line-height: 30px;
-    background-image:;
+    background: #1F4172;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-    margin-left: 80px;
-    padding: 100px
+    margin-left: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: ;
+    top: 50%;
+    left: 50%;
     }
-
-.header {
-    color: #C40018;
-
-}
 
 a:link {
     color: #292725;
@@ -29,4 +28,92 @@ a:hover {
 a:visited {
     color: #C40018;
     text-transform: uppercase;
+}
+
+.header {
+  border: 1px solid #292725;
+  box-shadow: 2px 2px 5px #292725;
+  padding: 8px 12px;
+  background: #dc9153;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.footer {
+  text-align: center;
+  padding: 8px 12px;
+}
+
+.fade-in-text {
+  font-family: Garamond, Georgia, serif;
+  font-style: italics;
+  font-size: 25px;
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+nav {
+  top: 0%;
+  width: 100%;
+  position: fixed;
+  background-color: #007bce;
+  opacity: 0.6;
+}
+
+.container {
+  padding: 22px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container ul li {
+  list-style: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+.container ul li a:hover {
+  padding: 12px;
+  color: #fc0;
+}
+.container ul li a {
+  margin: 8px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+.active {
+  border-bottom: 2px solid #d0d7d9;
+}
+.container p{
+margin-bottom: 16px;
+color: #fc0;
+font-weight: 700;
+font-size: 20px;
+}
+
+.item {
+  width: 75%;
+  padding: 50px;
+  height: 280px;
+  text-align: center;
+  background-color: #ecf0f1;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+.first {
+  margin-top: ;
+}
+.default {
+  margin-top: ;
+}
+.col-full {
+  width: ;
 }
