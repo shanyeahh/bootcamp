@@ -1,5 +1,5 @@
 body {
-    font-family: Garamond, Georgia, serif;
+    font-family: Optima, Georgia, serif;
     line-height: 30px;
     background: #1F4172;
     margin-top: 0px;
@@ -11,19 +11,19 @@ body {
     }
 
 a:link {
-    color: #292725;
+    color: #1F4172;
     text-transform: uppercase;
 
 }
 
 a:hover {
-    color: #292725;
-    background-color: #FF6107;
+    color: #FFFFFF;
+    background-color: #000000;
     text-transform: lowercase;
 }
 
 a:visited {
-    color: #C40018;
+    color: #1F4172;
     text-transform: uppercase;
 }
 
@@ -62,6 +62,9 @@ nav {
   position: fixed;
   background-color: rgb(0, 123, 206, 0.6);
   opacity: ;
+  width: 100%; 
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -76,7 +79,7 @@ nav {
 }
 .container ul li a:hover {
   padding: 12px;
-  color: #fc0;
+  color: #;
 }
 .container ul li a {
   margin: 8px;
@@ -91,9 +94,9 @@ nav {
 }
 .container p{
 margin-bottom: 16px;
-color: #fc0;
+color: #;
 font-weight: 700;
-font-size: 20px;
+font-size: 10px;
 }
 
 .item {
